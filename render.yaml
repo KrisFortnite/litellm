@@ -4,6 +4,7 @@ services:
     runtime: image
     image:
       url: ghcr.io/berriai/litellm:main-stable
+      plan: free
     envVars:
       - key: PORT
         value: 4000
